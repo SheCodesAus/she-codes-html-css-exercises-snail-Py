@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+
+
+* {
+    border: 1px solid grey;
+}
 
 html {
     font-family: 'Raleway', sans-serif;
@@ -12,7 +18,10 @@ body {
 header {
     text-align: center;
     background-color: #6b469a;
-    padding: 10px;
+    padding: 20px;
+    margin: 30px;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 10px;
 }
 
 h1 {
@@ -31,6 +40,7 @@ nav {
     margin: 10px;
     padding: 10px;
     background-color: #999999;
+    width: 200px;
 }
 
 a {
@@ -58,9 +68,17 @@ img {
 
 footer {
     text-align: center;
-    background-color: #6b469a;
+    background-color: #FFA500;
     padding: 10px;
     color: #fff;
 }
 
-/* Your code here */
+#special-image {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed #FFA500;
+}
+nav a {
+    display: block;
+    width: 200px;
+}

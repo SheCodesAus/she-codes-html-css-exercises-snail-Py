@@ -1,0 +1,36 @@
+
+/* type selector = body */
+
+body {
+    background-color: lavender;
+}
+
+div {
+    background-color: peachpuff;
+}
+
+/* Class selector is the next level of specifity */
+/* Class always start with . */
+
+.list-item {
+    background-color: darkseagreen;
+}
+
+.main-heading {
+    background-color: lightskyblue;
+}
+
+.nav-item {
+    background-color: mediumpurple;
+}
+
+/* ID selctor is the next level of specifity */
+/* ID always start with # */
+
+#first-paragraph {
+    background-color: lightcoral;
+}
+
+#special-nav {
+    background-color: gold;
+}
