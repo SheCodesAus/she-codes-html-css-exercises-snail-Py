@@ -1,0 +1,38 @@
+
+header {
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    float: right;
+}
+
+/* nav.a:hover, a:active {
+    color: red; */
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+
+div.main-content{
+    background-color: lightgray;
+}
+
+div.main-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.tile {
+    background-color: white;
+    border: 1px solid lightslategrey;
+    border-radius: 1em;
+    padding: 5%;
+
+}
