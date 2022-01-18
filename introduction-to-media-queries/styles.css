@@ -30,3 +30,14 @@ div {
 }
 
 /*** Your code here ***/
+
+@media(min-width: 900px) {
+    div{
+        display: inline-block;
+        width: 22%;
+    }
+    #div-1, #div-2, #div-3, #div-4 {
+        background-color: #9370db;
+        font-size: 18px;
+    }
+}
